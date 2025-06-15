@@ -1,6 +1,6 @@
 # Reactjs
 
-# 🚀 React Learning Day 1 – Starter Project
+# 🚀 React Learning Day 1 
 ---
 ## 📚 What I Did
 
