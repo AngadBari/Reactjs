@@ -1,11 +1,14 @@
-
+import Chai from "./Chai.jsx"
 
 function App() {
   
 
   return (
-   <h1>React With Bari ||Angad Bari</h1>
-  )
+    <>
+      <Chai />
+      <h1>Chai aur React</h1>
+    </>
+  );
 }
 
 export default App
