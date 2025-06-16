@@ -6,7 +6,8 @@
 
 - ✅ Installed React using Vite / Create React App  
 - 🧹 Removed pre-written code (logo, example files)
-- ✅ Flow And Folder Structure 
+- ✅ Flow And Folder Structure
+- 😎 Create Own React...
 
 ---
 
