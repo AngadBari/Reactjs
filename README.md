@@ -25,3 +25,13 @@ npm install
 
 # 4. Start the development server
 npm run dev
+
+```
+---
+# ✌️ React Learning Day 2 
+---
+## 📚 What I Did
+
+- 🪝Hooks
+
+ 
