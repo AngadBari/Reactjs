@@ -11,7 +11,7 @@
 
 ---
 
-## 🛠️ Steps to Run the Project
+## 🛠️ Steps to Installing Tailwind CSS
 
 ```bash
 # 1. Create a new React project using Vite
@@ -33,5 +33,32 @@ npm run dev
 ## 📚 What I Did
 
 - 🪝Hooks
+- ❤️ Props And Tailwindcss
+---
+
+## 🛠️ Steps to Installing Tailwind CSS
+
+### 1.Install Tailwind CSS
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+### 2.Configure the Vite plugin(vite.config.ts)
+```bash
+import tailwindcss from '@tailwindcss/vite'
+```
+```bash
+  tailwindcss(),
+```
+### 3.Import Tailwind CSS
+```bash
+@import "tailwindcss";
+```
+### 4.Start your build process
+```bash
+Start your build process
+```
+
+
+  
 
  
