@@ -58,6 +58,11 @@ import tailwindcss from '@tailwindcss/vite'
 Start your build process
 ```
 
+# 🫠 React Learning Day 3
+---
+## 📚 What I Did
+- 🎦 BgChanger (Project 1)
+
 
   
 
