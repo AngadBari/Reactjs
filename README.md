@@ -69,6 +69,11 @@ npm run dev
 ## 📚 What I Did
 - 🎦 BgChanger (Project 1)
 
+# 🫠 React Learning Day 4
+---
+## 📚 What I Did
+- 🎦 Passwordgenretor (Project 2)
+
 
   
 
