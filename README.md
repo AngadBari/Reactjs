@@ -40,23 +40,34 @@ npm run dev
 
 ### 1.Install Tailwind CSS
 ```bash
-npm install tailwindcss @tailwindcss/vite
-```
-### 2.Configure the Vite plugin(vite.config.ts)
-```bash
-import tailwindcss from '@tailwindcss/vite'
+npm install -D tailwindcss@3 postcss autoprefixer
 ```
 ```bash
-  tailwindcss(),
+npx tailwindcss init -p
 ```
-### 3.Import Tailwind CSS
+### 2.Configure the Vite plugin(tailwind.config.js)
 ```bash
-@import "tailwindcss";
+ content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+```
+
+### 3.Import Tailwind CSS (index.css)
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
 ### 4.Start your build process
 ```bash
-Start your build process
+npm run dev
 ```
+
+# 🫠 React Learning Day 3
+---
+## 📚 What I Did
+- 🎦 BgChanger (Project 1)
 
 
   
