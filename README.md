@@ -80,6 +80,12 @@ npm run dev
 ## 📚 What I Did
 - 🎦 Componets Reuse
 - 🪝 Custome Hooks
+# 🎦 React Learning Day 6
+---
+## 📚 What I Did
+- 📍 Router with Project
+  
+
 
   
 
