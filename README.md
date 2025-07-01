@@ -84,6 +84,11 @@ npm run dev
 ---
 ## 📚 What I Did
 - 📍 Router with Project
+
+# 😁 React Learning Day 7
+---
+## 📚 What I Did
+- 😊 Context API  
   
 
 
