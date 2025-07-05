@@ -23,9 +23,13 @@ function App() {
     setTodos((prev)=> prev.filter((todo)=>todo.id !== id ))
   }
 
-  const toggleCompleted=(id)=>{
-    setTodos((prev)=>prev.map((prevTodo)=>prevTodo === id ?{...prevTodo,completed: !prevTodo.completed}  : prevTodo))
-  }
+  const toggleComplete = (id) => {
+    setTodos((prev) =>
+      prev.map((prevTodo) =>
+        prevTodo === id ? { ...prevTodo, completed: !prevTodo.completed }: prevTodo
+      )
+    );
+  };
 
   useEffect(()=>{
  const todos=JSON.parse(localStorage.getItem("todos"));
@@ -42,7 +46,7 @@ function App() {
 
   return (
     <TodoProvider
-      value={{ todos, addTodo, deleteTodo, updateTodo, toggleCompleted }}
+      value={{ todos, addTodo, deleteTodo, updateTodo, toggleComplete }}
     >
       <div className="bg-[#172842] min-h-screen py-8">
         <div className="w-full max-w-2xl px-4 py-3 mx-auto text-white rounded-lg shadow-md">
@@ -57,10 +61,9 @@ function App() {
             {/*Loop and Add TodoItem here */}
             {todos.map((todo) => (
               <div key={todo.id} className="w-full">
-                <TodoItem />
+                <TodoItem todo={todo} />
               </div>
             ))}
-            
           </div>
         </div>
       </div>
